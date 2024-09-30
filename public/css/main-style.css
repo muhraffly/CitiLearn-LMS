@@ -1,0 +1,238 @@
+:root {
+    --mainColor: #0C843C;
+    --secondaryColor: #53B34B;
+    --accentColor: #CBD344;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.container {
+    background-color: #f9f9f9;
+}
+
+.container h1 {
+    color: var(--mainColor);
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container h2 {
+    color: var(--mainColor);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+
+.container p {
+    color: var(--mainColor);
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom:20px;
+}
+
+/* Card Enrollment */
+.card-enroll-course {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+/* Style untuk Courses Overview */
+.card-courses {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-anounce {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+
+
+.card-courses h3{
+    color: var(--secondaryColor);
+    font-size: 17px;
+}
+
+.card-course-item h5{
+    color: var(--mainColor);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card-course-item p{
+    color: var(--mainColor);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.card-course-item .enroll-button {
+    background: var(--secondaryColor);
+    border-radius: 5px;
+    color: #ffffff;
+    width: 80px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: auto;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-course-item .already-button {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.card-course-item .enroll-button:hover {
+    background-color: var(--mainColor);
+    transform: scale(1.05);
+}
+
+.card-course-item {
+    height: 450px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-course-item:hover {
+    transform: scale(1.05);
+}
+
+/* End Style untuk Course Overview */
+
+/* Style untuk My Course */
+.card-mycourses {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.card-mycourses h3{
+    color: var(--secondaryColor);
+    font-size: 17px;
+}
+
+.card-mycourses-item h5{
+    color: var(--mainColor);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card-mycourses-item p{
+    color: var(--mainColor);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.card-mycourses-item .study-button {
+    background: var(--secondaryColor);
+    border-radius: 5px;
+    color: #ffffff;
+    width: 80px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: auto;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-mycourses-item .study-button:hover {
+    background-color: var(--mainColor);
+    transform: scale(1.05);
+}
+
+.card-mycourses-item {
+    height: 450px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-mycourses-item:hover {
+    transform: scale(1.05);
+}
+
+/* End Style untuk My Course */
+
+/* Style untuk My Course Detail */
+.card-my-course-detail {
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container h3 {
+    color: var(--mainColor);
+    font-size: 20px;
+}
+
+.pdf h3 {
+    color: var(--mainColor);
+    font-size: 15px;
+}
+
+.pdf a {
+    color: var(--mainColor);
+    font-size: 15px;
+}
+
+/* Endy Style untuk My Course Detail */
+
+/* Style Untuk Modal */
+.modal-dialog h5 {
+    color: var(--mainColor);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.modal-body {
+    color: var(--mainColor);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.modal-dialog .btn-enroll-form {
+    background: var(--secondaryColor);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modal-dialog .btn-enroll-form:hover {
+    background-color: var(--mainColor);
+    transform: scale(1.05);
+}
+
+.modal-dialog .btn-cancel-enroll {
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modal-dialog .btn-cancel-enroll:hover {
+    transform: scale(1.05);
+}
+
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out; /* Menambahkan efek transisi */
+}
+
+.modal-dialog .close-button {
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modal-dialog .close-button:hover {
+    transform: scale(1.05);
+}
+
+/* End Style Untuk Modal */

@@ -1,0 +1,121 @@
+:root {
+    --mainColor: #0C843C;
+    --secondaryColor: #53B34B;
+    --accentColor: #CBD344;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    display: flex;
+    height: 100vh;
+}
+
+/* Halaman Index */
+
+.left {
+    background: url('/img/cover-citilink.jpeg') no-repeat center center;
+    background-size: cover;
+    flex: 3;
+    position: relative;
+}
+
+.left .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left .overlay h1 {
+    color: var(--mainColor);
+    font-size: 36px;
+    font-weight: bold;
+}
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.right h1 {
+    color: var(--mainColor);
+    font-size: 35px;
+}
+.right h1 span {
+    color: var(--secondaryColor);
+    font-size: 35px;
+}
+
+.right h5 {
+    margin-bottom: 50px;
+    color: var(--mainColor);
+    font-size: 15px;
+    text-align: center;
+}
+
+.right p {
+    color: var(--mainColor);
+    font-size: 15px;
+    text-align: center;
+}
+.login-form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 5px;
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.login-form input:focus {
+    border-color: var(--mainColor);
+}
+
+.login-btn {
+    margin-top: 20px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: var(--mainColor);
+    color: white;
+    border: none;
+    width : 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.login-btn:hover {
+    background-color: var(--secondaryColor);
+    transform: scale(1.05);
+}
+
+.right a {
+    margin-top: 10px;
+    color: var(--mainColor);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.right a:hover {
+    transform: scale(1.05);
+}
+
+/* Akhir Halaman Index */

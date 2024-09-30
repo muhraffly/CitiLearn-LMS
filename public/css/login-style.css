@@ -1,0 +1,123 @@
+:root {
+    --mainColor: #0C843C;
+    --secondaryColor: #53B34B;
+    --accentColor: #CBD344;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login {
+    height:100vh;
+}
+
+.header h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size:32px;
+    line-height: 48px;
+    color: var(--mainColor);
+
+}
+
+.header span {
+    font-style: normal;
+    font-weight: 600;
+    font-size:32px;
+    line-height: 48px;
+    color: var(--secondaryColor);
+}
+
+.header p {
+    font-style: normal;
+    font-weight: 400;
+    font-size:15px;
+    line-height: 21px;
+    color: var(--mainColor);
+    margin-bottom: 20px;
+}
+
+.login-form input{
+    background: #ffffff;
+    border: 1px solid var(--mainColor);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 15px;
+    color: var(--mainColor);
+    margin-top:20px;
+}
+
+.login-form input:focus {
+    border-color: var(--mainColor);
+    color: var(--mainColor)
+}
+
+.login-form .login-btn {
+    background: var(--secondaryColor);
+    border-radius: 8px;
+    height: 42px;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form .login-btn:hover {
+    background-color: var(--mainColor);
+    transform: scale(1.05);
+}
+
+.login-form .span-acc {
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 21px;
+    color: var(--mainColor);
+}
+
+.login-form .create-account {
+    text-decoration: none;
+    color: var(--mainColor);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.login-right h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 3px 5px rgba (0, 0, 0, 0.15);
+    margin-bottom: 50px;
+
+}
+
+.modal h5 {
+    color: var(--mainColor);
+}
+
+.modal-body {
+    color: var(--mainColor);
+}
+
+.modal .close-btn {
+    background: var(--secondaryColor);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modal .close-btn:hover {
+    background-color: var(--mainColor);
+    transform: scale(1.05);
+}

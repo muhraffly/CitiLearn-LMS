@@ -1,0 +1,168 @@
+:root {
+    --mainColor: #0C843C;
+    --secondaryColor: #53B34B;
+    --accentColor: #CBD344;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/img/cover-register-citilink.jpeg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width : 100%;
+    display: flex;
+    max-width: 850px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+.left-container {
+    width : 400px;
+}
+
+.form-register {
+    width: 250px;
+    margin: 60px auto;
+}
+
+.left-container h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size:24px;
+    color: var(--mainColor);
+    margin 20px;
+
+}
+
+.left-container p {
+    font-style: normal;
+    font-weight: 400;
+    font-size:15px;
+    color: var(--mainColor);
+    margin 20px;
+
+}
+
+.left-container .span-1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size:15px;
+    color: var(--mainColor);
+    margin 20px;
+}
+
+.left-container .span-2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size:15px;
+    color: var(--secondaryColor);
+    margin 20px;
+}
+
+
+.form-container {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-container h2 {
+    color: var(--mainColor);
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-floating label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: var(--mainColor);
+}
+
+.form-floating input {
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    color: var(--mainColor);
+}
+
+.form-floating input:focus {
+    border-color: var(--mainColor);
+    color: var(--mainColor);
+}
+
+.register-btn {
+    margin-top: 15px;
+    background: var(--secondaryColor);
+    border-radius: 8px;
+    height: 42px;
+    width: 100%;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: var(--mainColor);
+    transform: scale(1.05);
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container img {
+    width : 320px;
+    height : 320px;
+}
+
+.invalid-feedback {
+    font-size: 12px;
+}
+
+.form-register .span-acc {
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 21px;
+    color: var(--mainColor);
+}
+
+.form-register .login-account {
+    text-decoration: none;
+    color: var(--mainColor);
+    font-style: normal;
+    font-weight: 600;
+}
